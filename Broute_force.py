@@ -2,7 +2,7 @@ import itertools
 import string
 import time
 
-print("Hello INDIAN CYBER CLUB ARMY. I AM PASSWORD BABA CODED BY THE CYBER BABA")
+print("Hey, I’m testing and cracking weak passwords as part of ethical security assessments to help improve system security")
 chars = string.printable
 
 password = input("enter a password : ")
@@ -17,8 +17,9 @@ for length in range(1, max_length + 1):
         print("Trying password:", candidate)
         if candidate == password:
             end_time = time.time()
-            print("HEY ICC ARMY YOUR I Password found:", candidate)
+            print("Hey 😄 I think I found your password!:", candidate)
             time_taken = end_time - start_time
             print("Time taken:", time_taken, "seconds")
             raise SystemExit
         
+
